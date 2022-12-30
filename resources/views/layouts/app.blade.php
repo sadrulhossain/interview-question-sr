@@ -16,6 +16,13 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+<!-- BEGIN DROPDOWN SELECT PLUGINS -->
+{{-- <link href="{{asset('assets/select2/css/select2.min.css')}}" rel="stylesheet" type="text/css" />
+<link href="{{asset('assets/select2/css/select2-bootstrap.min.css')}}" rel="stylesheet" type="text/css" /> --}}
+
+<link href="{{asset('assets/bootstrap-toastr/toastr.min.css')}}" rel="stylesheet" type="text/css" />
+<script src="{{asset('assets/jquery.min.js')}}" type="text/javascript"></script>
+
 </head>
 {{--<body id="page-top">--}}
 
@@ -153,8 +160,18 @@
         </div>
     </div>
 </div>
+<!-- BEGIN DROPDOWN SELECT PLUGINS -->
+{{-- <script src="{{asset('assets/select2/js/select2.full.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets/select2/js/components-select2.min.js')}}" type="text/javascript"></script> --}}
+<!-- END DROPDOWN SELECT PLUGINS -->
+
+<!-- SWEETALERT SCRIPTS -->
+{{-- <script src="{{asset('assets/sweetalert/lib/sweet-alert.min.js')}}" type="text/javascript"></script> --}}
+<!-- toaster SCRIPTS -->
+<script src="{{asset('assets/bootstrap-toastr/toastr.min.js')}}" type="text/javascript"></script>
 
 <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}" defer></script>
+
 </body>
 </html>
